@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# creates symlink ot terraform of given version 
 function chterra() {
     local TF_VERSION="11"
 
