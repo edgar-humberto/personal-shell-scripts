@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -e
+set -x
+
+function method1() {
+    (
+        echo "hello world"
+    )
+}
+
+function main() {
+
+    case $1 in
+    "method1")
+        method1
+        ;;
+    *)
+        echo "Not a valid method."
+        ;;
+    esac
+}
+
+main "$@"
