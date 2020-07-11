@@ -2,4 +2,4 @@
 . ~/scripts/colors.sh
 . ~/scripts/chterra.sh
 . ~/scripts/mkscript.sh
-. ~/scripts/pyinit.sh
+. ~/scripts/py.sh
