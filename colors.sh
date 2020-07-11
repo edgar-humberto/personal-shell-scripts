@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # transforms text to red text
-function danger() {
+function _danger() {
     local RED="\033[0;31m"
     local NC='\033[0m'
 
@@ -9,14 +9,14 @@ function danger() {
 }
 
 # transforms text to yellow text
-function warn() {
+function _warn() {
     local YELLOW='\033[1;33m'
     local NC='\033[0m'
     printf "${YELLOW}${1} ${NC}\n"
 }
 
  #trsnsforms text to green text
-function success() {
+function _success() {
     local GREEN='\033[0;32m'
     local NC='\033[0m'
     printf "${GREEN}${1} ${NC}\n"
