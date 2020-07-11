@@ -19,5 +19,6 @@ function _pymod() {
 
    mkdir -p $mod_path/test
    _pyinit $mod_name $mod_name/test
-   touch "$mod_path/$mod_name.py" "$mod_path/test/test_$mod_name.py"
+   touch "$mod_path/$mod_name.py"
+    sed "s/MOD_NAME/$mod_name/g" ~/scripts/templates/py/test_template > "$mod_path/test/test_$mod_name.py"
 }

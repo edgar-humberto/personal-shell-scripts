@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+import unittest
+from MOD_NAME import MOD_NAME
+
+
+class TestMOD_NAME(unittest.TestCase):
+    def test_easy_input(self):
+        pass
