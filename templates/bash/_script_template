@@ -3,9 +3,20 @@
 set -e
 set -x
 
+function do_loop() {
+    if [ "$#" -gt 0 ]; then
+        for p in "$@"; do
+            echo $p
+        done
+
+    else
+        echo "meh"
+    fi
+}
+
 function method1() {
     (
-        echo "hello world"
+        echo "foo"
     )
 }
 
