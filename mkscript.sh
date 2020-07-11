@@ -4,7 +4,7 @@
 function _mkscript {
     if [ "$#" -ne 1 ]; then
         echo "Invalid argument, need one argument, file_name"
-         exit 0
+         return
     fi
 
     cat ~/scripts/templates/bash/_script_template > "$PWD/$1.sh"
