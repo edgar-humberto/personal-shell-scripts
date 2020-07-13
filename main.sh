@@ -3,3 +3,4 @@
 . ~/scripts/chterra.sh
 . ~/scripts/mkscript.sh
 . ~/scripts/py.sh
+. ~/scripts/go.sh
