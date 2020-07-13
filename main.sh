@@ -1,6 +1,5 @@
 #!/usr/bin/env bash 
 . ~/scripts/colors.sh
-. ~/scripts/chterra.sh
-. ~/scripts/mkscript.sh
+. ~/scripts/misc.sh
 . ~/scripts/py.sh
 . ~/scripts/go.sh
