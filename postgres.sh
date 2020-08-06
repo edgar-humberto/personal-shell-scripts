@@ -7,6 +7,8 @@ function _run_postgres {
     fi
     if [ ! "$(docker ps -a | grep postgres)" ]; then
         docker run -d -p 5432:5432 --name="postgres" --env POSTGRES_PASSWORD=example -v $HOME/docker-volumes/postgres:/var/lib/postgresql/data postgres:11.8
+    else
+        docker start postgres
     fi
 
 }
