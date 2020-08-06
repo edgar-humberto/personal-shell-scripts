@@ -3,3 +3,4 @@
 . ~/scripts/misc.sh
 . ~/scripts/py.sh
 . ~/scripts/go.sh
+. ~/scripts/postgres.sh
